@@ -28,6 +28,9 @@ BUILD_BROKEN_DUP_RULES := true
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/obiwan_defconfig
 
+# Selinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop

@@ -1,0 +1,1 @@
+allow init sysfs_vibrator:lnk_file { open read };

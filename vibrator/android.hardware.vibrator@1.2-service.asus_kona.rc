@@ -1,0 +1,14 @@
+on post-fs
+    chmod 0664 /sys/class/leds/vibrator/seq
+    chown system shell /sys/class/leds/vibrator/seq
+
+    chmod 0664 /sys/class/leds/vibrator/loop
+    chown system shell /sys/class/leds/vibrator/loop
+
+    chmod 0664 /sys/class/leds/vibrator/vmax
+    chown system shell /sys/class/leds/vibrator/vmax
+
+service vendor.vibrator-1-2 /vendor/bin/hw/android.hardware.vibrator@1.2-service.asus_kona
+    class hal
+    user system
+    group system
