@@ -28,5 +28,8 @@ TARGET_KERNEL_CONFIG := vendor/obiwan_defconfig
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# VINTF
+DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
+
 # inherit from the proprietary version
 -include vendor/asus/obiwan/BoardConfigVendor.mk
