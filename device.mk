@@ -47,6 +47,14 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     FrameRateTile
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    lineage.biometrics.fingerprint.inscreen@1.0-service.asus_kona
+
+# Lineage Permissions
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit from asus sm8250-common
