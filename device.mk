@@ -64,6 +64,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.asus_kona
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.2-service.asus_kona
+
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Inherit from asus sm8250-common
