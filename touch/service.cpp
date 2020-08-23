@@ -19,15 +19,19 @@
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>
 
+#include "DoubleClick.h"
 #include "GloveMode.h"
 #include "TouchscreenGesture.h"
 
 using ::vendor::lineage::touch::V1_0::IGloveMode;
+using ::vendor::lineage::touch::V1_0::ITouchFeature;
 using ::vendor::lineage::touch::V1_0::ITouchscreenGesture;
+using ::vendor::lineage::touch::V1_0::implementation::DoubleClick;
 using ::vendor::lineage::touch::V1_0::implementation::GloveMode;
 using ::vendor::lineage::touch::V1_0::implementation::TouchscreenGesture;
 
 int main() {
+    android::sp<ITouchFeature> doubleClick = new DoubleClick();
     android::sp<IGloveMode> gloveMode = new GloveMode();
     android::sp<ITouchscreenGesture> touchscreenGesture = new TouchscreenGesture();
 
@@ -35,6 +39,11 @@ int main() {
 
     if (gloveMode->registerAsService() != android::OK) {
         LOG(ERROR) << "Cannot register touchscreen glove HAL service.";
+        return 1;
+    }
+
+    if (doubleClick->registerAsService() != android::OK) {
+        LOG(ERROR) << "Cannot register touchscreen double click HAL service.";
         return 1;
     }
 

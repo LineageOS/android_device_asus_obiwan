@@ -20,6 +20,7 @@ cc_binary {
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
     srcs: [
+        "DoubleClick.cpp",
         "GloveMode.cpp",
         "TouchscreenGesture.cpp",
         "service.cpp",
