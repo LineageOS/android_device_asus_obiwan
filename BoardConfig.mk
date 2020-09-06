@@ -24,6 +24,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Kernel
 TARGET_KERNEL_CONFIG := vendor/obiwan_defconfig
+BOARD_KERNEL_CMDLINE += LS=B3
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
