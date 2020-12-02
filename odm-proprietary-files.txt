@@ -1,0 +1,4 @@
+odm/etc/build_eu_elite.prop
+odm/etc/build_eu.prop
+odm/etc/build_ru.prop
+odm/etc/build_ww_elite.prop
