@@ -1,0 +1,9 @@
+android_app {
+    name: "DefaultRefreshRate",
+
+    srcs: ["src/**/*.java"],
+
+    certificate: "platform",
+    platform_apis: true,
+    system_ext_specific: true,
+}

@@ -56,6 +56,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
+# Refresh rate
+PRODUCT_PACKAGES += \
+    DefaultRefreshRate
+
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.asus_kona
