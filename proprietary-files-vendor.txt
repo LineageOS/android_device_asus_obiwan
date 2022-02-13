@@ -1,5 +1,5 @@
 # All blobs, unless pinned, are extracted from:
-# asus/WW_I003D/ASUS_I003_1:11/RKQ1.200710.002/18.0410.2111.182-0:user/release-keys
+# asus/WW_I003D/ASUS_I003_1:11/RKQ1.200710.002/18.0410.2201.192-0:user/release-keys
 -vendor/app/CACertService/CACertService.apk
 -vendor/app/CneApp/CneApp.apk
 -vendor/app/com.asus.gpudrivers.kona.api30/com.asus.gpudrivers.kona.api30.apk
