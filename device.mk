@@ -150,6 +150,7 @@ PRODUCT_PACKAGES += \
 
 # Display
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/goodix_ts.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_ts.kl \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
 PRODUCT_PACKAGES += \
