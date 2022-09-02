@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "0427f9af_cc1d7063",
+        "filename": "vibrator/Vibrator.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 138,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2022-09-02T19:06:37Z",
+      "side": 1,
+      "message": "isn\u0027t that doing a static cast?\nfloat to uint8_t isn\u0027t defined via that\nyou should be using reintepret_cast",
+      "revId": "f50ddc1250c7efe80f1706a16c8de0b95f60dea2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
