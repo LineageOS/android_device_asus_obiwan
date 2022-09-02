@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "985d9188_07d74b0e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2022-09-02T19:14:14Z",
+      "side": 1,
+      "message": "A2DP is broken with AOSP BT and I don\u0027t know how to fix it.",
+      "revId": "8e9081015be2a0b79fa378fe68607eb44c90b688",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
