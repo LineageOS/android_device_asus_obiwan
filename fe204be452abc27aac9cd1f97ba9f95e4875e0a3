@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8e3b2f5f_c351a938",
+        "filename": "touch/TouchscreenGesture.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2022-09-02T23:31:42Z",
+      "side": 1,
+      "message": "I could not, for the life of me, make this work by reusing the same std::fstream used for the initial read. So i\u0027m closing that stream early and then just using android-base (could also open another std::fstream but this is a one liner 😎).",
+      "range": {
+        "startLine": 71,
+        "startChar": 11,
+        "endLine": 71,
+        "endChar": 43
+      },
+      "revId": "fe204be452abc27aac9cd1f97ba9f95e4875e0a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
