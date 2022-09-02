@@ -22,6 +22,30 @@
       },
       "revId": "b3b978fca862fcf13492337d42cf179f6e25cbd5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "32e72ea8_ee2e975b",
+        "filename": "init/init.qcom.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 550,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2022-09-02T19:00:13Z",
+      "side": 0,
+      "message": "No, but we\u0027re not using wpa_supplicant from CLO either so they would be unused anyways",
+      "parentUuid": "b8b2b680_631728fc",
+      "range": {
+        "startLine": 547,
+        "startChar": 71,
+        "endLine": 550,
+        "endChar": 80
+      },
+      "revId": "b3b978fca862fcf13492337d42cf179f6e25cbd5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
