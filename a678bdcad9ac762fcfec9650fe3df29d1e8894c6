@@ -16,6 +16,24 @@
       "message": "uh, what does that do?",
       "revId": "a678bdcad9ac762fcfec9650fe3df29d1e8894c6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "95da1bec_60e60c67",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29415
+      },
+      "writtenOn": "2022-09-02T19:05:12Z",
+      "side": 1,
+      "message": "Causes camera not to crash and burn due to this commit: https://android.googlesource.com/platform/system/libhwbinder/+/8e047f7a626c782a02dc9e67dee2dbae35bc6956",
+      "parentUuid": "4bf1dee0_982e6743",
+      "revId": "a678bdcad9ac762fcfec9650fe3df29d1e8894c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
