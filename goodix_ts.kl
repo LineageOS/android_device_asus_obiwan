@@ -4,5 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+key 116   GESTURE_DOUBLE_CLICK          WAKE    VIRTUAL
 key 33    PROG_RED      VIRTUAL
 key 22    PROG_GREEN    VIRTUAL
