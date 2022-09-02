@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "99e6051b_2ed402fb",
+        "filename": "init/fstab.qcom",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 18205
+      },
+      "writtenOn": "2022-09-02T23:50:45Z",
+      "side": 1,
+      "message": "This means we cannot support upgrade 18.1 -\u003e 19.1.\nLuca, thoughts? Is it worth it?",
+      "range": {
+        "startLine": 44,
+        "startChar": 215,
+        "endLine": 44,
+        "endChar": 338
+      },
+      "revId": "2ea9fc845cad4e271d9d7c1ece0b8677dbf0fc38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
