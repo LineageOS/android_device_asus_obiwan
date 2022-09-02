@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "eca698cf_50b6d5b5",
+        "filename": "fingerprint/BiometricsFingerprint.cpp",
+        "patchSetId": 1
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2022-09-02T19:03:57Z",
+      "side": 1,
+      "message": "uh, why don\u0027t we want to stop?\nI\u0027d expect because of the current logic we want 200001 \u003e write \u003e 200002\nwith that we may write \u003e 200001 \u003e 200002\n\nI\u0027d make the queue accept a generic std::function where you pass the whole block",
+      "revId": "7d7aa53aa9d53d4952773c9b7c3639b02df1b409",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
