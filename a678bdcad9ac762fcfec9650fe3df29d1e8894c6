@@ -34,6 +34,24 @@
       "parentUuid": "4bf1dee0_982e6743",
       "revId": "a678bdcad9ac762fcfec9650fe3df29d1e8894c6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "92af728d_35604caf",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2022-09-04T15:41:30Z",
+      "side": 1,
+      "message": "that would be nice to see in commit msg :)",
+      "parentUuid": "95da1bec_60e60c67",
+      "revId": "a678bdcad9ac762fcfec9650fe3df29d1e8894c6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
