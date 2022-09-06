@@ -298,6 +298,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
+    CarrierConfigResObiwan \
     FrameworksResCommon_Sys \
     FrameworksResObiwan \
     FrameworksResTarget \
