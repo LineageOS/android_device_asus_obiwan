@@ -22,6 +22,30 @@
       },
       "revId": "2ea9fc845cad4e271d9d7c1ece0b8677dbf0fc38",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9cda9718_a2037197",
+        "filename": "init/fstab.qcom",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2022-09-21T12:20:17Z",
+      "side": 1,
+      "message": "don\u0027t break upgrade.",
+      "parentUuid": "99e6051b_2ed402fb",
+      "range": {
+        "startLine": 44,
+        "startChar": 215,
+        "endLine": 44,
+        "endChar": 338
+      },
+      "revId": "2ea9fc845cad4e271d9d7c1ece0b8677dbf0fc38",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
